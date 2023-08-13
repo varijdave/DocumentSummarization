@@ -3,7 +3,7 @@ from transformers import BartTokenizer, BartForConditionalGeneration
 import PyPDF2
 
 # Load BART model and tokenizer
-model_name = "facebook/bart-large-cnn"
+model_name = "facebook/bart-base"
 tokenizer = BartTokenizer.from_pretrained(model_name)
 model = BartForConditionalGeneration.from_pretrained(model_name)
 
